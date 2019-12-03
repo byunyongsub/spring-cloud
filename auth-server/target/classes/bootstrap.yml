@@ -1,0 +1,17 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: auth-server
+  datasource:
+    hikari.maximum-pool-size: 4
+    url: jdbc:postgresql://localhost:5432/test
+    username: test
+    password: qwe123
+
+security:
+  oauth2:
+    client:
+      client-id: first-client
+      client-secret: noonewilleverguess
