@@ -9,6 +9,7 @@ spring:
     url: jdbc:postgresql://localhost:5432/test
     username: test
     password: qwe123
+  jpa.hibernate.ddl-auto: update
 
 security:
   oauth2:
